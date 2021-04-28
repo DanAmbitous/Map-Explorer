@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="globalMap.css">
+  <script src="globalMap.js" defer></script>
+  <title>Global Map</title>
+</head>
+<body>
+  <div id="map-container">
+    <img src="https://api.mapbox.com/styles/v1/mapbox/satellite-v9/static/0,0,0,0/600x300@2x?access_token=pk.eyJ1IjoiZGFuYXN0b25zaGluZyIsImEiOiJja28wcGdrcDUwMzJ1Mm9zNWxqMTBkMjVhIn0.p-bu4zt5kUJAZ9rVi6-noQ" alt="The map" id="map">
+  </div>
+
+  <div id="input-container">
+    <input type="number" id="latitude" placeholder="latitude">
+    <input type="number" id="longitude" placeholder="longitude">
+    <input type="range" min="0" max="9" value="0" id="zoom-level">
+    <button id="locate">Locate</button>
+  </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+}
+
+#map {
+  width: calc(100% - 0px);
+  margin: 0 auto;
+}
